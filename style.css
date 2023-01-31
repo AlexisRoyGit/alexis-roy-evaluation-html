@@ -12,9 +12,15 @@ h2 {
     font-style: italic;
     text-decoration: underline;
 }
+.bouton {
+    width: 50%;
+}
 
 @media  screen and (max-width : 375px) {
     body {
         font-size: x-small;
+    }
+    .bouton {
+        width: 30%;
     }
 }
